@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "946287388766",
+    "project_id": "yoga-class-admin",
+    "storage_bucket": "yoga-class-admin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946287388766:android:fe1b2d2225082806976ccf",
+        "android_client_info": {
+          "package_name": "com.courseworm.yoga"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU47GAkYlFgNXDlxUFzDvWV3S3i5ddnj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

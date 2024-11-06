@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_course">
+
+
+
+    <fragment
+        android:id="@+id/nav_course"
+        android:name="com.courseworm.yoga.ui.course.course_list.CourseListFragment"
+        android:label="Course Plan(s)" />
+
+    <fragment
+        android:id="@+id/nav_class"
+        android:name="com.courseworm.yoga.ui.yoga_class.class_list.YogaClassListFragment"
+        android:label="Yoga Offering(s)" />
+
+    <fragment
+        android:id="@+id/nav_schedule"
+        android:name="com.courseworm.yoga.ui.schedule.schedule_list.ScheduleFragment"
+        android:label="Schedule(s)" />
+
+    <fragment
+        android:id="@+id/nav_instructor"
+        android:name="com.courseworm.yoga.ui.instructor.instructor_list.InstructorListFragment"
+        android:label="Instructor List" />
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.courseworm.yoga.ui.setting.SettingsFragment"
+        android:label="Setting" />
+
+    <fragment
+        android:id="@+id/nav_setting_shorcut"
+        android:name="com.courseworm.yoga.ui.setting.SettingsFragment"
+        android:label="Setting" />
+
+
+    <fragment
+        android:id="@+id/nav_about_shorcut"
+        android:name="com.courseworm.yoga.ui.about.AboutFragment"
+        android:label="About" />
+
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.courseworm.yoga.ui.about.AboutFragment"
+        android:label="About" />
+
+    <fragment
+        android:id="@+id/nav_course_detail"
+        android:name="com.courseworm.yoga.ui.course_detail.CourseDetailFragment"
+        android:label="Course Detail" />
+
+    <fragment
+        android:id="@+id/nav_add_instructor_form"
+        android:name="com.courseworm.yoga.ui.instructor.instructor_form.InstructorFormFragment"
+        android:label="Add Instructor" />
+
+    <fragment
+        android:id="@+id/nav_add_course_form"
+        android:name="com.courseworm.yoga.ui.course.course_form.CourseFormFragment"
+        android:label="Add Course"/>
+
+    <fragment
+        android:id="@+id/nav_add_yoga_class_form"
+        android:name="com.courseworm.yoga.ui.yoga_class.class_form.YogaClassFormFragment"
+        android:label="Add Yoga Class" />
+
+    <fragment
+        android:id="@+id/nav_add_course_schedule_form"
+        android:name="com.courseworm.yoga.ui.schedule.schedule_form.CourseScheduleFormFragment"
+        android:label="Create Schedule" />
+
+
+    <fragment
+        android:id="@+id/nav_edit_instructor_form"
+        android:name="com.courseworm.yoga.ui.instructor.instructor_form.InstructorFormFragment"
+        android:label="Edit Instructor" />
+
+    <fragment
+        android:id="@+id/nav_edit_course_form"
+        android:name="com.courseworm.yoga.ui.course.course_form.CourseFormFragment"
+        android:label="Edit Course"/>
+
+    <fragment
+        android:id="@+id/nav_edit_yoga_class_form"
+        android:name="com.courseworm.yoga.ui.yoga_class.class_form.YogaClassFormFragment"
+        android:label="Edit Class Detail" />
+
+    <fragment
+        android:id="@+id/nav_edit_course_schedule_form"
+        android:name="com.courseworm.yoga.ui.schedule.schedule_form.CourseScheduleFormFragment"
+        android:label="Edit Schedule" />
+
+</navigation>

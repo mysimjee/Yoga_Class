@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_course"
+            android:icon="@drawable/baseline_course_alt_24"
+            android:title="Available Course(s)"/>
+
+        <item
+            android:id="@+id/nav_class"
+            android:icon="@drawable/baseline_class_24"
+            android:title="Yoga Classe(s)"/>
+
+        <item
+            android:id="@+id/nav_instructor"
+            android:icon="@drawable/baseline_people_24"
+            android:title="Instructor(s)"/>
+
+
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/baseline_schedule_24"
+            android:title="Schedule"/>
+
+
+
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/baseline_settings_24"
+            android:title="Setting"/>
+
+
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/baseline_info_24"
+            android:title="About"/>
+
+
+
+
+
+    </group>
+</menu>
